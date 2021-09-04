@@ -1,0 +1,11 @@
+#server:
+#  port: 8082
+
+spring:
+  application:
+    name: carrinho-compras
+
+  cloud:
+    config:
+      uri: http://localhost:8888
+
